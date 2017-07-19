@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		935BEB091F1F43DA00AE5EC9 /* TVGuideError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935BEB081F1F43DA00AE5EC9 /* TVGuideError.swift */; };
+		935BEB0C1F1F784700AE5EC9 /* TVGuideProgramChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935BEB0B1F1F784700AE5EC9 /* TVGuideProgramChannel.swift */; };
 		93743A811F1D393800945EFD /* TVGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93743A801F1D393800945EFD /* TVGuide.swift */; };
 		93743A891F1D39BB00945EFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93743A881F1D39BB00945EFD /* AppDelegate.swift */; };
 		93743A8B1F1D39BB00945EFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93743A8A1F1D39BB00945EFD /* ViewController.swift */; };
@@ -47,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		935BEB081F1F43DA00AE5EC9 /* TVGuideError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGuideError.swift; sourceTree = "<group>"; };
+		935BEB0B1F1F784700AE5EC9 /* TVGuideProgramChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGuideProgramChannel.swift; sourceTree = "<group>"; };
 		93743A751F1D38E100945EFD /* TVGuide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TVGuide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93743A791F1D38E100945EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93743A801F1D393800945EFD /* TVGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVGuide.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				93C3AB0B1F1D601A006A0854 /* TVGuideChannel.swift */,
+				935BEB0B1F1F784700AE5EC9 /* TVGuideProgramChannel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93C3AB0C1F1D6073006A0854 /* TVGuideChannel.swift in Sources */,
+				935BEB0C1F1F784700AE5EC9 /* TVGuideProgramChannel.swift in Sources */,
 				93C3AB051F1D5264006A0854 /* Result.swift in Sources */,
 				93743A811F1D393800945EFD /* TVGuide.swift in Sources */,
 				935BEB091F1F43DA00AE5EC9 /* TVGuideError.swift in Sources */,

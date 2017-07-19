@@ -8,9 +8,12 @@
 
 import Foundation
 
+public typealias TVGuideChannelName = String
+public typealias TVGuideId = String
+
 public struct TVGuideChannel: Decodable {
-    public let id: String
-    public let name: String
+    public let id: TVGuideId
+    public let name: TVGuideChannelName
     public let name_short: String
 }
 
